@@ -1,0 +1,6 @@
+{
+    "python.pythonPath": "/home/hyun/.local/share/virtualenvs/rental-R4c38MKq/bin/python",
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true
+}
