@@ -23,6 +23,13 @@
 
 <br/>
 
+
+![예측 모델 정보](https://imgur.com/clzm6Ky.gif)
+
+
+<br/>
+
+
 ![finance 정보](https://imgur.com/R0VqcJh.jpg)
 
 
@@ -36,9 +43,3 @@
 
 
 ![계약 정보](https://imgur.com/ua1DIoi.jpg)
-
-
-<br/>
-
-
-![예측 모델 정보](https://imgur.com/clzm6Ky.gif)
