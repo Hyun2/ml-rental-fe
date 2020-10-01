@@ -1,68 +1,50 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 머신러닝 예측 모델 (<https://ml-rental.herokuapp.com/>)
 
-## Available Scripts
+### 🚨 접속 시 에러가 발생하면 30초 후 다시 접속 부탁드리겠습니다.
 
-In the project directory, you can run:
+#### 무료 클라우드(Heroku)에 배포하여 지속적인 접속이 없으면 sleep 상태로 변경되어 바로 접속되지 않을 수 있습니다.
 
-### `yarn start`
+<br/>
 
-Runs the app in the development mode.<br />
-Open [\${process.env.PUBLIC_URL}](${process.env.PUBLIC_URL}) to view it in the browser.
+### 백엔드: Python Django
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### 프론트엔드: React.js (CRA)
 
-### `yarn test`
+### 배포: Heroku
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### ML 모델: 캣부스팅 모델
 
-### `yarn build`
+<br/>
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### 정수기 렌탈 업체의 기존 고객 정보 기반으로 신규 고객의 해약 가능성을 예측하는 모델을 적용한 웹 애플리케이션입니다.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+#### 그래디언트 부스팅, 라이트 부스팅, 캣부스팅을 이용하여 모델을 만들고 정확도, F1 Score, AUC 등을 비교하여 최종적으로 캣부스팅 모델을 사용하였습니다.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+<br/>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![finance 정보](https://imgur.com/AcYPWUS.jpg)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<br/>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+![member list 정보](https://imgur.com/gqNbVlS.jpg)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<br/>
 
-### Code Splitting
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+![계약 정보](https://imgur.com/sZmDGUv.jpg)
 
-### Analyzing the Bundle Size
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+<br/>
 
-### Making a Progressive Web App
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+![예측 모델 정보 1](https://imgur.com/o46oXZL.jpg)
 
-### Advanced Configuration
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+<br/>
 
-### Deployment
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+![예측 모델 정보 2](https://imgur.com/O3tY4Al.jpg)
