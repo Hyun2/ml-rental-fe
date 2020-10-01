@@ -23,28 +23,22 @@
 
 <br/>
 
-![finance 정보](https://imgur.com/AcYPWUS.jpg)
+![finance 정보](https://imgur.com/R0VqcJh.jpg)
 
 
 <br/>
 
 
-![member list 정보](https://imgur.com/gqNbVlS.jpg)
+![member list 정보](https://imgur.com/vGgGiY8.jpg)
 
 
 <br/>
 
 
-![계약 정보](https://imgur.com/sZmDGUv.jpg)
+![계약 정보](https://imgur.com/ua1DIoi.jpg)
 
 
 <br/>
 
 
-![예측 모델 정보 1](https://imgur.com/o46oXZL.jpg)
-
-
-<br/>
-
-
-![예측 모델 정보 2](https://imgur.com/O3tY4Al.jpg)
+![예측 모델 정보](https://imgur.com/clzm6Ky.gif)
