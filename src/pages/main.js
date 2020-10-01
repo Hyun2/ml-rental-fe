@@ -16,7 +16,7 @@ const Container = styled.div`
 `;
 
 const BgImg = styled.div`
-  background-image: url(${props => props.url});
+  background-image: url(${(props) => props.url});
   background-size: cover;
   background-position: center center;
   filter: grayscale(70%);
@@ -33,17 +33,17 @@ export default () => {
   return (
     <Container>
       <Carousel autoplay autoplaySpeed={2800} speed={1500}>
-        {/* <BgImg url="http://localhost:3000/water1.jpg" />
-        <BgImg url="http://localhost:3000/water2.jpg" />
-        <BgImg url="http://localhost:3000/water3.jpg" /> */}
+        {/* <BgImg url="${process.env.PUBLIC_URL}/water1.jpg" />
+        <BgImg url="${process.env.PUBLIC_URL}/water2.jpg" />
+        <BgImg url="${process.env.PUBLIC_URL}/water3.jpg" /> */}
 
-        {/* <BgImg url="http://localhost:3000/aircare.png" />
-        <BgImg url="http://localhost:3000/bodycare.png" />
-        <BgImg url="http://localhost:3000/watercare.png" /> */}
+        {/* <BgImg url="${process.env.PUBLIC_URL}/aircare.png" />
+        <BgImg url="${process.env.PUBLIC_URL}/bodycare.png" />
+        <BgImg url="${process.env.PUBLIC_URL}/watercare.png" /> */}
 
-        <BgImg url="http://localhost:3000/water.png" />
-        <BgImg url="http://localhost:3000/water4.jpg" />
-        <BgImg url="http://localhost:3000/water7.jpg" />
+        <BgImg url={`${process.env.PUBLIC_URL}/water.png`} />
+        <BgImg url={`${process.env.PUBLIC_URL}/water4.jpg`} />
+        <BgImg url={`${process.env.PUBLIC_URL}/water7.jpg`} />
       </Carousel>
     </Container>
   );

@@ -241,7 +241,7 @@ const MemberTable = ({ results, counts, setMembers, history }) => {
         ]}
       >
         {/* <TileLayer url="http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" /> */}
-        <TileLayer url="http://localhost:3000/tiles/{z}/{x}/{y}.png" />
+        <TileLayer url={`${process.env.PUBLIC_URL}/tiles/{z}/{x}/{y}.png`} />
 
         {data.city.map((city, k) => {
           return (

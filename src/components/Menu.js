@@ -7,7 +7,7 @@ import {
   FaUser,
   FaRegChartBar,
   FaRegEye,
-  FaFileContract
+  FaFileContract,
 } from "react-icons/fa";
 
 const { SubMenu } = Menu;
@@ -48,8 +48,7 @@ const LogoTitle = styled.div`
 `;
 
 const TopLogo = styled(Link)`
-  /* background-image: url("http://localhost:3000/top_logo.jpg"); */
-  background-image: url("http://localhost:3000/water_logo_cropped.png");
+  background-image: url(${process.env.PUBLIC_URL}"/water_logo_cropped.png");
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
@@ -67,7 +66,7 @@ const HomeMenu = ({ current, setCurrent, location: { pathname } }) => {
   // const [current, setCurrent] = useState(pathname.replace(/\//i, ""));
   console.log(pathname);
   console.log(current);
-  const handleClick = e => {
+  const handleClick = (e) => {
     setCurrent(e.key);
   };
 
